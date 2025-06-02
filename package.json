@@ -1,0 +1,16 @@
+{
+  "name": "smart-translator-api",
+  "version": "1.0.0",
+  "description": "Smart Translator API on Vercel",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "openai": "^4.20.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
